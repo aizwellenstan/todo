@@ -6,7 +6,7 @@ gem 'rack-cors'
 # for authentication
 gem 'devise'
 # for Twitter UI components inc. navbar
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '~> 3.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 # Use pg for herairoku database.
