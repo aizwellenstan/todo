@@ -55,3 +55,11 @@
 6. `cd client`
 7. `npm i`
 8. `npm start`
+
+# Error Handling
+## Address already in use - bind(2) for "::1" port 3000 (Errno::EADDRINUSE)
+1. `sudo rm -rf tmp`            //delete `tmp` folder under project folder
+2. close the rails terminal
+3. `sudo lsof -t -i:3000`
+4. `sudo kill -9 {pid}`
+5. restart rails
