@@ -7,6 +7,7 @@
 ## Features
 - Register/Login
 - User can Create/Delete their own task
+- User can Change Task Status ( By Clicking the circle at the right side of the task )
 - Task
 1. title
 2. body
@@ -22,7 +23,7 @@
 - suprate task
 1. onhand
 2. passive
-3. ative
+3. active
 
 - filter task by title || body 
 
