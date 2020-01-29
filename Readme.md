@@ -54,4 +54,4 @@
 5. `sudo apt-get install -y nodejs`
 6. `cd client`
 7. `npm i`
-8. `sudo npm start`
+8. `npm start`
