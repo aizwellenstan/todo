@@ -4,7 +4,7 @@
   <img src="https://github.com/aizwellenstan/fivexruby-todo/blob/master/screenshot.png?raw=true" alt="screenshot" width="600px"/>
 </h1>
 
-##Features
+## Features
 - Register/Login
 - User can Create/Delete their own task
 - Task
