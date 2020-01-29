@@ -63,3 +63,7 @@
 3. `sudo lsof -t -i:3000`
 4. `sudo kill -9 {pid}`
 5. restart rails
+
+## Server Already Started...&& others
+1. remove tmp folder in rails project
+2. restart rails
