@@ -27,7 +27,7 @@
 - filter task by title || body 
 
 # Contributing
-## Install rails
+## Install rails && start server
 1. `sudo apt-get install curl`
 2. `command curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -`
 3. `\curl -sSL https://get.rvm.io | bash -s stable --rails`
@@ -45,3 +45,13 @@
 15. `bundle`
 16. `rails db:setup db:migrate db:seed`
 17. `rails s`
+
+## Install NodeJS && start client
+1. `sudo apt-get update`
+2. `sudo apt-get install build-essential libssl-dev`
+3. `sudo apt install curl`
+4. `curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
+5. `sudo apt-get install -y nodejs`
+6. `cd client`
+7. `npm i`
+8. `sudo npm start`
